@@ -1,0 +1,13 @@
+.regAuth__form {
+  padding: 50px;
+  width: 50%;
+  margin: 0 auto;
+  min-width: 200px;
+  border: 3px solid #011e29;
+  border-radius: 6px;
+}
+
+.form__buttonGroup {
+  display: flex;
+  justify-content: space-around;
+}
