@@ -1,0 +1,26 @@
+.registrationForm {
+  display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: larger;
+    border: 3px solid black;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 100px 200px;
+}
+
+.registrationForm a{
+  color: white;
+}
+
+.title {
+  text-align: center;
+}
+
+.title a {
+  color: #00427b;
+}
+
+.logo {
+  font-family: 'Mogra', cursive;
+}

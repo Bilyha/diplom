@@ -1,10 +1,17 @@
 import React from 'react';
 import { Form, FormGroup, Col, Button, FormControl, ControlLabel  } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './registration.css'
 
 export default function Registr() {
   return (
-    <div>
+  <div>
+    <div className="title">
+      <h1>How Artificial Intelligence Will Change Everything</h1>
+      <h2><a href="#">Join us</a> and be a part of this.</h2>
+      <h2 className="logo">AI-Challenge</h2>
+    </div>
+    <div className="registrationForm">
       <Form horizontal >
         <FormGroup controlId="formHorizontalEmail">
           <Col componentClass={ControlLabel} sm={2}>
@@ -63,5 +70,6 @@ export default function Registr() {
       </Form>
       <p> Already in Challange? <Link to="authorization">Log in</Link></p>
     </div>
+  </div>
   );
 }

@@ -5,7 +5,10 @@ import { Link } from 'react-router-dom';
 
 export default function RegAuth() {
   return (
-    <div>
+    <div className="registr__wrap">
+      <h1> Log In to <span className="logo">AI-Challenge</span></h1>
+      <h2>Change the world</h2>
+      <h2>Improve yourself</h2>
       <Form horizontal className="regAuth__form">
         <FormGroup controlId="formHorizontalEmail">
           <Col componentClass={ControlLabel} sm={2}>

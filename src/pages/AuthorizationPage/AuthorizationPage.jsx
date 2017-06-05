@@ -3,6 +3,6 @@ import RegAuth from './../../components/RegAuth/RegAuth';
 
 export default function AuthorizationPage() {
   return (
-    <RegAuth />
+      <RegAuth />
   );
 }
