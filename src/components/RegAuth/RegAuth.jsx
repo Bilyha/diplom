@@ -1,12 +1,11 @@
 import React from 'react';
 import './regAuth.css';
 import { Form, FormGroup, Col, Button, FormControl, ControlLabel  } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export default function RegAuth() {
   return (
     <div>
-      <h1> Welcome, please Sign IN! </h1>
-      <h1> Or Log In, if have an account </h1>
       <Form horizontal className="regAuth__form">
         <FormGroup controlId="formHorizontalEmail">
           <Col componentClass={ControlLabel} sm={2}>
@@ -28,12 +27,11 @@ export default function RegAuth() {
 
         <FormGroup >
           <Col smOffset={2} sm={10} className="form__buttonGroup">
-            <Button type="submit">
-              Sign in
-            </Button>
-            <Button type="submit">
-              Log in
-            </Button>
+            <Link to="main">
+              <Button type="submit">
+                Log in
+              </Button>
+            </Link>
           </Col>
         </FormGroup>
       </Form>

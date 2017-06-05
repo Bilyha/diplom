@@ -1,9 +1,9 @@
 import React from 'react';
 import './registartionPage.css';
-import RegAuth from './../../components/RegAuth/RegAuth';
+import Registr from './../../components/Regisatration/Registr';
 
 export default function RegistartionPage() {
   return (
-    <RegAuth />
+    <Registr />
   );
 }

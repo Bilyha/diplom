@@ -1,0 +1,37 @@
+.header__logo{
+  font-family: 'Mogra', cursive;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  background: #0e6180;
+  padding: 20px 10px 5px 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+
+.user__photo{
+  width: 50px;
+}
+
+.user__name {
+  padding-right: 10px;
+  font-size: large;
+  font-weight: 600;
+}
+
+.header__menu a {
+  color: #1e252b;
+  font-size: xx-large;
+  padding: 10px;
+  margin: 1px;
+  border: 3px solid #0d2131;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.header__menu a:hover{
+  background-color: #83a6b3;
+}
