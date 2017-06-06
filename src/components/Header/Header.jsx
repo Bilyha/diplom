@@ -11,8 +11,8 @@ export default function Header() {
       </div>
       <div className="header__menu">
         <Link to='/main'> Main </Link>
-        <Link to='/scoreboard'>Score Board </Link>
         <Link to='/statistic'> Statistics </Link>
+        <Link to='/scoreboard'>Score Board </Link>
       </div>
       <div className="header__user">
           <span className="user__name">Ilya Babich</span>
