@@ -20,30 +20,30 @@ export default function ScoreBoard() {
        <tbody>
          <tr>
            <td>1</td>
-           <td>Table cell</td>
-           <td>Table cell</td>
-           <td>Table cell</td>
-           <td>Table cell</td>
-           <td>Table cell</td>
-           <td>Table cell</td>
+           <td>Ilya</td>
+           <td>Babich</td>
+           <td>CartPole</td>
+           <td>-0.10304095</td>
+           <td>1.21697297</td>
+           <td>31</td>
          </tr>
          <tr>
            <td>2</td>
-           <td>Table cell</td>
-           <td>Table cell</td>
-           <td>Table cell</td>
-           <td>Table cell</td>
-           <td>Table cell</td>
-           <td>Table cell</td>
+           <td>Barry</td>
+           <td>Allen</td>
+           <td>CartPole</td>
+           <td>-0.09578687</td>
+           <td>-0.02943731</td>
+           <td>19</td>
          </tr>
          <tr>
            <td>3</td>
-           <td>Table cell</td>
-           <td>Table cell</td>
-           <td>Table cell</td>
-           <td>Table cell</td>
-           <td>Table cell</td>
-           <td>Table cell</td>
+           <td>Clark</td>
+           <td>Kent</td>
+           <td>N/A</td>
+           <td>N/A</td>
+           <td>N/A</td>
+           <td>N/A</td>
          </tr>
        </tbody>
      </Table>
