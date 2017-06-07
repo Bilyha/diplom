@@ -11,7 +11,7 @@ import ScoreBoardPage from './pages/ScoreBoardPage/ScoreBoardPage';
 import StatisticPage from './pages/StatisticPage/StatisticPage';
 
 ReactDOM.render(
-  <Router>
+  <Router basename="/diplom" >
     <div>
       <Route exact={true} path='/' component={RegistartionPage} />
       <Route path='/authorization' component={AuthorizationPage}/>
