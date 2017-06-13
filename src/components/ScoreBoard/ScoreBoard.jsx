@@ -26,6 +26,13 @@ export default function ScoreBoard() {
            <td>-0.10304095</td>
            <td>1.21697297</td>
            <td>31</td>
+            {/*<td>1</td>
+           <td>Barry</td>
+           <td>Allen</td>
+           <td>N/A</td>
+           <td>N/A</td>
+           <td>N/A</td>
+           <td>N/A</td>*/}
          </tr>
          <tr>
            <td>2</td>
@@ -35,6 +42,13 @@ export default function ScoreBoard() {
            <td>-0.09578687</td>
            <td>-0.02943731</td>
            <td>19</td>
+           {/*<td>2</td>
+           <td>Clark</td>
+           <td>Kent</td>
+           <td>N/A</td>
+           <td>N/A</td>
+           <td>N/A</td>
+           <td>N/A</td>*/}
          </tr>
          <tr>
            <td>3</td>
@@ -44,6 +58,13 @@ export default function ScoreBoard() {
            <td>N/A</td>
            <td>N/A</td>
            <td>N/A</td>
+           {/*<td>3</td>
+           <td>Ilya</td>
+           <td>Babich</td>
+           <td>N/A</td>
+           <td>N/A</td>
+           <td>N/A</td>
+           <td>N/A</td>*/}
          </tr>
        </tbody>
      </Table>

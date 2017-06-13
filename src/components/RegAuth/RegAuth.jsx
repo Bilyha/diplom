@@ -31,7 +31,7 @@ export default function RegAuth() {
         <FormGroup >
           <Col smOffset={2} sm={10} className="form__buttonGroup">
             <Link to="main">
-              <Button type="submit">
+              <Button type="submit" onClick={() => {alert("Please, input correct password")}}>
                 Log in
               </Button>
             </Link>
